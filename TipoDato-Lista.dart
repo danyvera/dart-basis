@@ -1,4 +1,5 @@
 //NOTA: en otros lenguajes se conocen como "ARREGLOS", pues es la coleccion de elementos que tienen algun tipo de dato en comun
+// un metodo estatico es una funcion que puedo llamar sin crear una instancia de la misma. Estos metodos se pueden aplicar a objetos
 
 void main() {
   
@@ -17,7 +18,8 @@ void main() {
   //para solo el numero en el index 0 de la lista:
    print( numeros[0] ); //en este caso imprimiria el numero "1", el cual esta en el index 0 de la lista
   
-  final masNumeros = List.generate(100, (int index) => index );
+  //el metodo estatico llamado "generate" genera x elementos a la lista
+  final masNumeros = List.generate(100, (int index) => index ); //al ponerle el valor de "index", retornara una lista de 100 elementos: con los valores del 0 al 99 de acuerdo al index que tengan en la lista
  
   print(masNumeros);
 }

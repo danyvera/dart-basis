@@ -11,8 +11,10 @@ void main() {
 //     1: 100,
 //     2: 500
 //   };
+  // persona.addAll({ 3: 'true' });
   
   //Map<tipo de dato de la llave, tipo de dato de los valores de las llaves> nombre del objeto 
+  //si utilizamos "dynamic", se podra utilizar cualquier tipo de dato en ese campo, no habra restricciones
   Map<String, dynamic> persona = {
     'nombre': 'Fernando',
     'edad': 35,
@@ -21,7 +23,7 @@ void main() {
   
   //le podemos agregar una nueva propiedad al mapa del objeto de la siguiente manera:
   persona.addAll({ 'segundoNombre': 'Juan' });
-  persona.addAll({ 3: 'Mexicano' });
+  persona.addAll({'nacionalidad': 'Mexicano' });
   
   //para imprimir todas las propiedades del mapa imprimiendo el objeto:
   print( persona );

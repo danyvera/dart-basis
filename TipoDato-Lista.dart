@@ -18,7 +18,7 @@ void main() {
   //para solo el numero en el index 0 de la lista:
    print( numeros[0] ); //en este caso imprimiria el numero "1", el cual esta en el index 0 de la lista
   
-  //el metodo estatico llamado "generate" genera x elementos a la lista
+  //el metodo estatico llamado "generate" genera x elementos a la lista, y espera 2 argumentos posicionales
   final masNumeros = List.generate(100, (int index) => index ); //al ponerle el valor de "index", retornara una lista de 100 elementos: con los valores del 0 al 99 de acuerdo al index que tengan en la lista
  
   print(masNumeros);

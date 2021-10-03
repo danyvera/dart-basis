@@ -12,14 +12,16 @@ void main() {
 //     2: 500
 //   };
   
+  //Map<tipo de dato de la llave, tipo de dato de los valores de las llaves> nombre del objeto 
   Map<String, dynamic> persona = {
     'nombre': 'Fernando',
     'edad': 35,
     'soltero': false,
   };
   
-  //le podemos agregar una nueva propiedad al mapa del objeto de la siguiente manera
+  //le podemos agregar una nueva propiedad al mapa del objeto de la siguiente manera:
   persona.addAll({ 'segundoNombre': 'Juan' });
+  persona.addAll({ 3: 'Mexicano' });
   
   //para imprimir todas las propiedades del mapa imprimiendo el objeto:
   print( persona );

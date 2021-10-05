@@ -1,5 +1,6 @@
 //Los getters y setters son cosas que están internas a una clase
 //Un getter es un metodo que luce como un metodo pero se llama como una propiedad
+//Un setter es el procedimiento en el cual nosotros podemos establecerle el valor de la propiedad 
 
 
 import 'dart:math' as math;
@@ -16,6 +17,7 @@ void main() {
   
   //mando a llamar el get como una propiedad:
   print( 'area get: ${ cuadrado.area }' );
+  
   
 }
 
